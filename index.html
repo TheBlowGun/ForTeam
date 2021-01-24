@@ -8,17 +8,17 @@
 </head>
 <body>
     
-    <nav>
+    <!-- <nav>
     <ul id="landing-page-nav-bar">
         <li><a href="/">Home</a> </li>
         <li><a href="/">Map</a> </li>
         <li><a href="/">About Us</a> </li>
     </ul>
-    </nav>
+    </nav> -->
     <div class="pozadina">
     <header>
 <form action="search">
-    <input type="text">
+    <input type="text"><img src="search-ico-jpg" alt="">
     <input type="button" value="Search">
 </form>
 </div>
@@ -39,7 +39,13 @@
         </ul>
     </aside>
     
-    <main></main>
+    <main>
+        <iframe src="https://www.google.com/maps?q=&z=14&t=&ie=UTF8&output=embed" width="600" height="450"></iframe><noscript> 
+            Full functionality of this site requires JavaScript to be enabled. Learn how to
+             <a href="https://javascriptdownload.org/">Download JavaScript/</a>
+              in your browser.</noscript>
+    </main>
+
     
     <footer>
         <h4>Sponsors</h4> 
@@ -47,4 +53,28 @@
         
     </footer>
 </body>
+<script>
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      const uluru = { lat: -25.344, lng: 131.036 };
+      // The map, centered at Uluru
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 4,
+        center: uluru,
+      });
+      // The marker, positioned at Uluru
+      const marker = new google.maps.Marker({
+        position: uluru,
+        map: map,
+      });
+    }
+    // The location of Uluru
+const uluru = { lat: -25.344, lng: 131.036 };
+// The map, centered at Uluru
+const map = new google.maps.Map(document.getElementById("map"), {
+  zoom: 4,
+  center: uluru,
+});
+  </script>
 </html>
