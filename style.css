@@ -123,3 +123,25 @@ main {
   
 
 }
+
+#lupo {
+    height: 27px;
+    width: 27px;
+    /* border: solid 1px black; */
+    display:inline-block;
+    margin: 0;
+    padding:0;
+    cursor: pointer;
+    
+
+}
+#lupo:hover {
+    background-color: violet;
+    transition: linear;
+    border:violet;
+    border-radius: 10px;
+}
+
+#search-bar {
+    padding-top: 200px;
+}
