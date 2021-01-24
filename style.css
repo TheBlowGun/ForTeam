@@ -151,8 +151,14 @@ main {
 #pisanje{
     float: left;
     margin-left: 900px;
+    padding: 0px;
 }
 
 #dugme{
     float: left;
 }
+
+#borderoff{
+    border: solid 1px black;
+    border-radius: 10px;
+    height: 27px;
