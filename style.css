@@ -144,4 +144,15 @@ main {
 
 #search-bar {
     padding-top: 200px;
+    /* width: 500px; */
+    ;
+}
+
+#pisanje{
+    float: left;
+    margin-left: 900px;
+}
+
+#dugme{
+    float: left;
 }
