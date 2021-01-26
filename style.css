@@ -166,10 +166,10 @@ main {
 }
 
 .pozadina2{  background-image: url("background/bikeic.jpg");
-background-color: #cccccc;
-height: 562px;
-background-position:bottom;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+    background-color: #cccccc;
+    height: 562px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
